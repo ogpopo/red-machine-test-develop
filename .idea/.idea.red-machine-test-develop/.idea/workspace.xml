@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4982863b-07e9-4f22-947e-00a64ecd181a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/EnvironmentScroller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/NodesHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ColorNodes/ColorNode.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ColorNodes/ColorNode.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ColorNodes/ColorNodeWithTarget.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ColorNodes/ColorNodeWithTarget.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ColorNodes/TargetColor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ColorNodes/TargetColor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Levels/Important.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Levels/Important.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Loader.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Loader.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Connection/ColorConnectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Connection/ColorConnectionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Connection/ColorNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Connection/ColorNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/EventModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/ClickObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/ClickObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActionHandlers/ClickHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActionHandlers/ClickHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSateObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSateObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/boot.config" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB81DF0C-49C6-43B1-A04D-9FC6CCCA2433/3e/1a034db6/Bounds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB81DF0C-49C6-43B1-A04D-9FC6CCCA2433/b3/f9de995a/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB81DF0C-49C6-43B1-A04D-9FC6CCCA2433/df/ed607b83/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB81DF0C-49C6-43B1-A04D-9FC6CCCA2433/45/aba13248/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventModels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/NodesHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSateObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ClickObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActionHandlers/ClickHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Connection/ColorConnectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/EnvironmentScroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Connection/ColorNode.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ilvtQnnMWHW9YIVf7e7Bl9VsE5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4982863b-07e9-4f22-947e-00a64ecd181a" name="Default Changelist" comment="" />
+      <created>1720078195515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720078195515</updated>
+      <workItem from="1720078227363" duration="12932000" />
+      <workItem from="1720106125602" duration="2956000" />
+      <workItem from="1720151538536" duration="1252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1720108984136">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1720108984136" />
+  </component>
+</project>

@@ -14,13 +14,13 @@ namespace Connection
         [SerializeField] private ColorConnector colorConnector;
 
         private ClickHandler _clickHandler;
-        
-        private readonly ColorConnectionHistoryHandler _historyHandler = new();
+
+        private readonly ColorConnectionHistoryHandler _historyHandler = new ();
 
         private ColorNode[] _nodes;
 
-        private readonly Dictionary<ColorNodeTarget, bool> _completionsByTargetNode = new();
-        private readonly Dictionary<ColorNode, HashSet<ColorNode>> _connectionsFromColorNode = new();
+        private readonly Dictionary<ColorNodeTarget, bool> _completionsByTargetNode = new ();
+        private readonly Dictionary<ColorNode, HashSet<ColorNode>> _connectionsFromColorNode = new ();
 
         private ColorNode _currentConnectionMainNode;
         private ColorConnector _currentColorConnector;
@@ -38,12 +38,14 @@ namespace Connection
             }
 
             _clickHandler = ClickHandler.Instance;
-            _clickHandler.SetDragEventHandlers(OnDragStart, OnDragEnd);
+            _clickHandler.DragStartEvent += OnDragStart;
+            _clickHandler.DragEndEvent += OnDragEnd;
         }
 
         private void OnDestroy()
         {
-            _clickHandler.ClearEvents();
+            _clickHandler.DragStartEvent -= OnDragStart;
+            _clickHandler.DragEndEvent -= OnDragEnd;
         }
 
         private void StartConnecting(ColorNode colorNode)
@@ -77,7 +79,7 @@ namespace Connection
         {
             foreach (var colorNode in _nodes)
             {
-                if (!colorNode.IsInBounds(position))
+                if (colorNode.IsInBounds(position) == false)
                     continue;
 
                 result = colorNode;

@@ -14,9 +14,11 @@ namespace Player.ActionHandlers
         public event Action<Vector3> ClickEvent;
         public event Action<Vector3> PointerUpEvent;
         public event Action<Vector3> DragStartEvent;
+        public event Action<Vector3> DragEvent;
         public event Action<Vector3> DragEndEvent;
 
         private Vector3 _pointerDownPosition;
+        private Vector3 _pointerDrugPosition;
 
         private bool _isClick;
         private bool _isDrag;
@@ -55,6 +57,14 @@ namespace Player.ActionHandlers
 
                 _isClick = false;
             }
+            
+            if (Input.GetMouseButton(0))
+            {
+                _pointerDrugPosition = CameraHolder.Instance.MainCamera.ScreenToWorldPoint(Input.mousePosition);
+                _pointerDrugPosition = new Vector3(_pointerDrugPosition.x, _pointerDrugPosition.y, .0f);
+                
+                DragEvent?.Invoke(_pointerDrugPosition);
+            }
         }
 
         private void LateUpdate()
@@ -70,20 +80,6 @@ namespace Player.ActionHandlers
                 _isClick = false;
                 _isDrag = true;
             }
-        }
-
-        public void SetDragEventHandlers(Action<Vector3> dragStartEvent, Action<Vector3> dragEndEvent)
-        {
-            ClearEvents();
-
-            DragStartEvent = dragStartEvent;
-            DragEndEvent = dragEndEvent;
-        }
-
-        public void ClearEvents()
-        {
-            DragStartEvent = null;
-            DragEndEvent = null;
         }
     }
 }

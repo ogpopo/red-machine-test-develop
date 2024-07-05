@@ -19,17 +19,13 @@ namespace Connection
         public Color Color => spriteRenderer.color;
         public bool IsEmpty => isEmpty;
 
-        private Bounds _bounds;
-        
-
-        private void Awake()
-        {
-            _bounds = spriteRenderer.bounds;
-        }
-
         public bool IsInBounds(Vector3 point)
         {
-            return _bounds.Contains(point);
+            Vector3 localPos = transform.InverseTransformPoint(point);
+            if (Mathf.Abs(localPos.x) < 0.5f && Mathf.Abs(localPos.y) < 0.5f && Mathf.Abs(localPos.z) < 0.5f)
+                return true;
+            else
+                return false;
         }
 
         public void AddColor(Color additiveColor)
